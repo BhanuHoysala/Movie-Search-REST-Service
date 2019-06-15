@@ -1,7 +1,7 @@
 # Movie-Search-REST-Service
 RESTful API service to search movies
 
-## For code analysis and review import project as Maven project and build in your favorite IDE
+###### For code analysis and review import project as Maven project and build in your favorite IDE
 
 ## To unit test the application
 ###### mvn test
