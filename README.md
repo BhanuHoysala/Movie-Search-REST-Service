@@ -15,8 +15,8 @@ RESTful API service to search movies
 ## Example URL
 
 ###### http://localhost:8080/v1/movies/search?fskLabel=FSK16
-###### localhost:8080/v1/movies/download?fskLabel=FSK16
+###### http://localhost:8080/v1/movies/download?fskLabel=FSK16
 
-## negative case handling
+## Negative case handling
 
-###### localhost:8080/v1/movies/download?fskLabel=FSK1
+###### http://localhost:8080/v1/movies/download?fskLabel=FSK1
