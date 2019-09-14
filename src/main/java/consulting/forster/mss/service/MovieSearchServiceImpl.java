@@ -34,6 +34,7 @@ public class MovieSearchServiceImpl implements MovieSearchService {
             movie.put("id", Integer.parseInt((String) m.get("id")));
             movie.put("title", ((String) m.get("title")).replace("\"", ""));
             movie.put("year", m.get("production_year"));
+
             jsonArray.add(movie);
         });
 

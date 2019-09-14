@@ -110,7 +110,7 @@ public class MovieController {
      *
      * @return
      */
-    @ApiOperation(value = "Service heart beat check, HTTP status 200 OK", response = ResponseEntity.class)
+    @ApiOperation(value = "Application heart beat check, HTTP status 200 OK", response = ResponseEntity.class)
     @GetMapping("welcome")
     public ResponseEntity<String> getHeartBeat() {
 

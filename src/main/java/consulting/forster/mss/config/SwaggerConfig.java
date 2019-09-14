@@ -56,7 +56,7 @@ public class SwaggerConfig {
 	          .apis(RequestHandlerSelectors.any())              
 	          .paths(PathSelectors.any())
 	          .build().apiInfo(metaData())
-					.tags(new Tag("Movie REST Controller", "Movie Search REST API controller"),
+					.tags(new Tag("tag1", "tag 1 desc"),
 							new Tag("tag2", "Tag 2 description."),
 							new Tag("tag2", "Tag 3 description."));
 	    }
